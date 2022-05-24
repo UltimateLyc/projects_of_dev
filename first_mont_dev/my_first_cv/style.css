@@ -1,0 +1,44 @@
+
+body
+{
+    background-color: rgb(0, 139, 139);
+}
+.profile
+{
+    /* This part is to determine the measurements */
+    height: 150px;
+    width: 150px;
+    /* We can apply a radius with this funtion */
+    border-radius: 50%;
+    /* Center imagen */
+    display: block;  
+    margin: 0px auto; 
+    
+}
+
+.icons
+{
+    height: 15px;
+}
+
+
+h1
+{
+    /* center txt */
+    margin: auto;
+    text-align: center; /* rigth - center - left */
+
+    font-family: Arial;
+    color: #090958;
+}
+
+h2, h3
+{
+    margin: auto;
+    text-align: center;
+
+    font-family: Arial;
+    color: #000000;
+}
+
+

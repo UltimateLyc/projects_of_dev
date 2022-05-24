@@ -1,0 +1,64 @@
+body
+{
+    background-color: black;
+}
+
+.main
+{
+    height: 547px;
+    width: 800px;
+    background-color: #00205b;
+}
+
+.white_sim_up
+{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.white_sim_down
+{
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.white_1
+{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+}
+
+
+.white_2
+{
+    background-color: white;
+    height: 250px;
+    width: 500px;
+}
+
+.red_1
+{
+    background-color: red;
+    height: 225px;
+    width: 225px;
+}
+
+.red_2
+{
+    background-color: red;
+    height: 225px;
+    width: 475px;
+}
+
+.white_2
+{
+    display: flex;
+    justify-content: end;
+}
+
+.main .white_sim_down .white_1 .red_1, .main .white_sim_down .white_2 .red_2
+{
+    margin-top: 25px; 
+}

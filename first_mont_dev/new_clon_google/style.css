@@ -1,0 +1,29 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav .menu
+{
+    display: flex;
+    justify-content: end;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: #000000DE;
+}
+
+.menu li
+{
+    font-size: 13px;
+    list-style: none;
+    padding: 0px 15px 0px 5px;
+}
+
